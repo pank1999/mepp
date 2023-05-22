@@ -1,0 +1,10 @@
+.f{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-a{
+    text-decoration: none;
+}

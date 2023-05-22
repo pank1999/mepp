@@ -1,0 +1,44 @@
+.p{
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid  rgb(231, 231, 231);
+    height: 40vh;
+   margin: 20px 0px ;
+   border-radius: 10px 10px 0px 0px ;
+   overflow: hidden;
+}
+.p-browser{
+    height: 20px;
+    display: flex;
+    background-color:rgb(206, 206, 206);
+    align-items: center;
+    position: sticky;
+    z-index: 2;
+}
+.p-circle{
+   height: 6px;
+   width: 6px;
+   margin: 3px;
+   border-radius: 50%;
+   background-color: rgb(10, 236, 29);
+}
+.p-circle:first-child{
+    background-color: rgb(255, 209, 5);
+}
+.p-circle:last-child{
+    background-color: red;
+}
+.p-img{
+    width: 100%;
+    transition: all 10s ease;
+}
+
+.p:hover .p-img{
+    transform: translateY(-50%);
+}
+@media screen and (max-width:480px) {
+    .p{
+        width: 45%;
+        height: 20vh;
+    }
+}

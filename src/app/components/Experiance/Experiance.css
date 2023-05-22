@@ -1,0 +1,61 @@
+.exp{
+  padding: 20px;
+  margin:0px 150px;
+}
+.exp-title{
+    text-align: center;
+    margin: 30px 0px;
+}
+.exp-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 50px;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+}
+
+.exp-left img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+.exp-right{
+    margin-left: 50px;
+}
+.exp-item h3{
+    color: rgb(156, 156, 156);
+}
+.exp-item p{
+    padding-top: 10px;
+    font-size: 14px;
+}
+.exp span{
+    margin-left: 300px;
+    font-size: 16px;
+    
+}
+
+@media screen and (max-width:486px) {
+    .exp-item{
+      flex-wrap: wrap;
+    } 
+    .exp{
+        margin: 0px 20px;
+    }  
+    .exp-right{
+        text-align: center;
+        margin-left:0px ;
+    }
+
+    .exp span{
+        margin-left: 0px;
+        display: none;
+    }
+ 
+
+    .exp-item p{
+        display: none;
+    }
+  }
