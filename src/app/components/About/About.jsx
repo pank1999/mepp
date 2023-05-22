@@ -25,10 +25,10 @@ export default function About() {
       <div className="a-right">
         <h1 className="a-title">About Me</h1>
         <p className="a-sub" data-aos-duration="1000" data-aos="fade-left">
-          I'm a web developer with a focus on the MERN stack, but still
+          I am a web developer with a focus on the MERN stack, but still
           exploring other technologies and frameworks that catch my interest! if
-          you're looking for a developer to add to your team, I'd love to hear
-          from you!
+          you are looking for a developer to add to your team, I would love to
+          hear from you!
         </p>
         <p className="a-desc" data-aos-duration="2000" data-aos="fade-left">
           I am a creative designer and developer, who aims to work with small

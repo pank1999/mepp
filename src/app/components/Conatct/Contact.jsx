@@ -33,7 +33,7 @@ export default function Contact() {
       <div className="c-bg"></div>
       <div className="c-wrapper">
         <div className="c-left">
-          <h1 className="c-title">Let's discuss your projects</h1>
+          <h1 className="c-title">Lets discuss your projects</h1>
           <div className="c-info">
             <div className="c-info-item">
               <LocalPhone /> <span>+91 8630211986</span>
