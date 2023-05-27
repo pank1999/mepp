@@ -1,18 +1,17 @@
 
 .Education h1{
     text-align: center;
-    margin: 20px;
     padding: 20px;
 }
 .Eduction-container{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 0px 100px ;
 }
 .Edu-item{
-    height: 350px;
-    width: 350px;
+    padding: 1rem;
+    height: 250px;
+    width: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,19 +20,33 @@
     box-shadow: 0px 0px 5px 5px gray;
 }
 
-.Edu-item h3{
-    margin-top: 10px;
-}
 .Edu-item img{
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
 }
 .Edu-item:hover{
     transform:rotate(360deg);
     transition: 2s  ease-in-out;
+
  }
 
+ .title{
+   font-size: 1.5rem;
+   font-weight: 600;
+   font-family: 'Poppins';
+   padding: 10px 0px;
+ }
+ .percentage{
+    font-size: 1.3rem;
+ }
+
+ .institute{
+    font-size: 1rem;
+ }
+ span{
+    padding-bottom: 0.5em;
+ }
  @media screen and (max-width:486px) {
     .Eduction-container{
         margin: 0px 5px;

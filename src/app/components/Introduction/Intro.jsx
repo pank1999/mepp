@@ -7,7 +7,7 @@ export default function Intro() {
       <div className="Intro-left">
         <div className="Intro-left-wrapper">
           <h2 className="left-title">Hello , my name is </h2>
-          <h1 className="left-name">Pankaj Pandey</h1>
+          <span className="left-name">Pankaj Pandey</span>
           <div className="left-designation">
             <div className="left-designation-wrapper">
               <div className="left-designation-item">Web Developer</div>
@@ -83,13 +83,12 @@ export default function Intro() {
       </div>
       <div className="Intro-right">
         <div className="right-bg"></div>
-        {/* <img src={me} className="img" alt="" /> */}
         <Image
           src={me}
           className="img"
           alt="pankaj-img"
-          height="100"
-          width="100"
+          height="300"
+          width="300"
         />
       </div>
     </div>

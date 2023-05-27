@@ -6,7 +6,7 @@ export default function ProductList() {
   return (
     <div className="ProductList">
       <div className="pl-text">
-        <h1 className="pl-title">Create & Inspire. Its Pankaj</h1>
+        <h1 className="pl-title">Create & Inspire. Its Pank1999</h1>
         <p className="pl-desc">
           I am a creative designer and developer, who aims to work with small
           businesses and marginalized communities to bring their passions to
@@ -16,7 +16,12 @@ export default function ProductList() {
       </div>
       <div className="pl-list">
         {products.map((item) => (
-          <Product key={item.id} img={item.img} link={item.link} />
+          <Product
+            key={item.id}
+            img={item.img}
+            height={item.height}
+            link={item.link}
+          />
         ))}
       </div>
     </div>

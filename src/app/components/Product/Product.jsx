@@ -2,7 +2,7 @@ import Link from "next/link";
 import "./Product.css";
 import Image from "next/image";
 
-export default function Product({ link, img }) {
+export default function Product({ link, img, height }) {
   return (
     <div className="p">
       <div className="p-browser">
@@ -15,8 +15,8 @@ export default function Product({ link, img }) {
           src={img}
           alt="product"
           className="p-img"
-          width="auto"
-          height="auto"
+          width="200"
+          height={height}
         />
       </Link>
     </div>

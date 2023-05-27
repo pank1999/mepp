@@ -42,6 +42,7 @@
     color:rgb(140, 53, 223);
 }
 
+
 @keyframes move{
     25%{
         transform:translateY(-50px);
