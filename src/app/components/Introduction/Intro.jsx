@@ -16,13 +16,13 @@ export default function Intro() {
               <div className="left-designation-item">Full Stack Developer</div>
             </div>
           </div>
-          <p className="left-desc">
+          <span className="left-desc">
             Diligent software engineer with experience in application
             development. Eager to build innovative and cutting edge business
             solutions for the impressive suite of clients within its global
             reach. In previous roles, slashed downtime by 25% and ensured 98%
             on-time project completion.
-          </p>
+          </span>
         </div>
         <svg
           width="75"

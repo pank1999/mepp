@@ -1,6 +1,6 @@
 import { EmojiEvents } from "@mui/icons-material";
 import "./About.css";
-import img from "../../img/profile_pic.jpg";
+import img from "../../img/About.jpg";
 // import AOS from "aos";
 import Image from "next/image";
 

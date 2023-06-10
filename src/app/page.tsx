@@ -29,9 +29,9 @@ export default function Home() {
       {/* <Toggle /> */}
       <Intro />
       <About />
-      {/* <Placements /> */}
       <Education />
       <Experiance />
+      <Placements />
       <Slider />
       <ProductList />
       <Contact />

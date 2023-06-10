@@ -1,90 +1,90 @@
-.Intro{
+.Intro {
     margin: 0;
     display: flex;
     height: 100vh;
 }
 
-.Intro-left{
+.Intro-left {
     flex: 1;
-     display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 
 }
-.Intro-left-wrapper{
+.Intro-left-wrapper {
     padding: 50px;
     height: 50%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
 }
-.left-title{
+.left-title {
     font-size: 30px;
     font-weight: 300;
 }
-.left-name{
+.left-name {
     font-size: 60px;
 }
-.left-designation{
+.left-designation {
     height: 50px;
     overflow: hidden;
 }
-.left-designation-wrapper{
+.left-designation-wrapper {
     height: 100%;
     animation: move 8s ease-in-out infinite alternate;
 }
-.left-designation-item{
+.left-designation-item {
     height: 50px;
     font-size: 30px;
     font-weight: bold;
     display: flex;
     align-items: center;
-    color:rgb(140, 53, 223);
+    color: rgb(140, 53, 223);
 }
 
 
-@keyframes move{
-    25%{
-        transform:translateY(-50px);
+@keyframes move {
+    25% {
+        transform: translateY(-50px);
     }
-    50%{
-        transform:translateY(-100px);
+50% {
+    transform: translateY(-100px);
     }
-    75%{
-        transform:translateY(-150px);
+75% {
+    transform: translateY(-150px);
     }
-    100%{
-        transform:translateY(-200px);
+100% {
+    transform: translateY(-200px);
     }
 
-    
+
 }
 
-.left-desc{
+.left-desc {
     font-size: 20px;
 }
-.Intro-right{
-    flex:1;
+.Intro-right {
+    flex: 1;
     position: relative;
     align-items: center;
     justify-content: center;
 }
-.i-scroll{
+.i-scroll {
     height: 30px;
     width: 30px;
     position: absolute;
     bottom: 20px;
 }
-.right-bg{
+.right-bg {
     width: 100%;
     height: 100%;
     clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
     background-color: rgb(140, 53, 223);
     position: absolute;
-    top:0;
-    right:0;
+    top: 0;
+        right: 0;
 }
-.img{
+.img {
     height: 80%;
     position: absolute;
     width: 80%;
@@ -96,27 +96,35 @@
 
 
 @media screen and (max-width:480px) {
-    .Intro{
-      flex-direction: column;
+    .Intro {
+            flex-direction: column-reverse;
     }
-    .img{
+.img {
         height: 67%;
         width: 60%;
-    right: 44px;
-    bottom: 50px;
-    border-radius: 50%;
+        right: 44px;
+            bottom: 50px;
+            border-radius: 50%;
     }
-    .Intro-left-wrapper{
+.Intro-left-wrapper {
         padding: 10px;
         align-items: center;
         text-align: center;
         justify-content: center;
         height: 100%;
     }
-    .left-desc{
+.left-desc {
         display: none;
     }
-    .left-designation{
+.left-designation {
         margin-left: 77px;
     }
+.right-bg {
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 }
